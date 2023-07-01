@@ -1,0 +1,55 @@
+.rating-cards {
+  width: 80%;
+  margin-left: 130px;
+}
+
+.from {
+  color: #B5B5B5;
+}
+
+.rating-cards-container {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 25px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  position: relative;
+}
+
+.half-arrow {
+  position: absolute;
+  top: 33%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+
+.left-arrow {
+  left: 0;
+}
+
+.right-arrow {
+  right: -10px;
+}
+
+.carousel-arrow-img {
+  width: 15px;
+  height: 15px;
+}
+
+.carousel-arrow-img.left-arrow {
+  transform: rotate(180deg);
+}
