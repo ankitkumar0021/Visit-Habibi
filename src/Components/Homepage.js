@@ -12,6 +12,7 @@ import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import SearchIcon from "@mui/icons-material/Search";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import RaitngCards from "./RaitngCards";
+import StoryCards from "./StoryCards";
 // import VerifiedUserIcon from '@mui/icons-material/VerifiedUser';
 
 const Homepage = () => {
@@ -111,6 +112,10 @@ const Homepage = () => {
         </div>
         <div className="rating-cards mt-80">
         <RaitngCards />
+        <StoryCards />
+        <div>
+          <h1>Visit Habibi Top Recommendation’s</h1>
+        </div>
         </div>
       </div>
     </>

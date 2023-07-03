@@ -119,6 +119,8 @@ const RatingCards = () => {
   };
 
   return (
+    // first cards
+    <>
     <div className="rating-cards-container">
       <h1>Top Experience in Dubai</h1>
       <div className="cards" style={{ marginTop: "25px" }}>
@@ -135,6 +137,8 @@ const RatingCards = () => {
         </div>
       </div>
     </div>
+    
+    </>
   );
 };
 
