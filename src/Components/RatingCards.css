@@ -38,20 +38,18 @@ h1 {
 }
 
 .left-arrow {
-  left: -15px;
+  left: 0;
 }
 
 .right-arrow {
-  right: -15px;
+  right: -10px;
 }
 
+.carousel-arrow-img {
+  width: 15px;
+  height: 15px;
+}
 
-
-.carousel-arrow-img .left-arrow {
+.carousel-arrow-img.left-arrow {
   transform: rotate(180deg);
-  width: 40px;
-  height: 40px;
-  flex-shrink: 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-
 }

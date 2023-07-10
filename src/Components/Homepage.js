@@ -113,9 +113,6 @@ const Homepage = () => {
         <div className="rating-cards mt-80">
         <RaitngCards />
         <StoryCards />
-        <div>
-          <h1>Visit Habibi Top Recommendation’s</h1>
-        </div>
         </div>
       </div>
     </>
